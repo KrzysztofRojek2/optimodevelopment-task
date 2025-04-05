@@ -105,3 +105,26 @@
    font-size:xx-large;
 }
 
+@media (max-width: 900px) {
+   .info-card {
+     background-color:rgb(200, 55, 55)
+   }
+   .symbol-group {
+      flex-direction: column;
+   }
+   .symbol-container {
+      align-self:baseline;
+   }
+}
+ 
+@media (max-width: 583px) {
+   .info-card {
+     background-color: blue;
+   }
+   .content-area {
+      flex-direction: column;
+   }
+   .card-wrapper {
+      justify-content: start;
+   }
+}
