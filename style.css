@@ -28,7 +28,7 @@
 }
 
 .symbol-group {
-   flex: 2;
+   flex: 4;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -84,7 +84,7 @@
 }
 
 .card-wrapper {
-   flex: 1;
+   flex: 3;
    display: flex;
    justify-content: end;
 }
